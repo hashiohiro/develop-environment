@@ -1,0 +1,23 @@
+" My .vimrc
+" Encode
+set encoding=utf8
+set fileencodings=utf-8,cp932
+
+" Indent
+set expandtab
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set autoindent
+set smartindent
+
+" Appearance
+set number
+set ruler
+syntax on
+set background=dark
+colorscheme solarized
+
+" Misc
+set nocompatible
+au BufRead,BufNewFile *.nas setfiletype asm
